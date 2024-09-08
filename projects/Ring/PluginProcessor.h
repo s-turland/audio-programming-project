@@ -6,11 +6,11 @@ namespace Param
 {
     namespace ID
     {
-        static const juce::String Enabled { "enabled" };
-        static const juce::String Drive { "drive" };
-        static const juce::String Frequency { "frequency" };
-        static const juce::String Resonance { "resonance" };
-        static const juce::String Mode { "mode" };
+        static const juce::String Enabled { "frequency" };
+        static const juce::String Drive { "structure" };
+        static const juce::String Frequency { "brightness" };
+        static const juce::String Resonance { "damping" };
+        static const juce::String Mode { "position" };
         static const juce::String PostGain { "post_gain" };
     }
 

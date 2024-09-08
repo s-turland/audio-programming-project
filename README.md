@@ -9,7 +9,7 @@
 2. **Sympathetic strings**, modelled by a network of comb filters.
 3. **String with non-linearity/dispersion** (comb filter with multimode filter and non-linearities in the loop).
 
-#### [Modal resonator](https://pichenettes.github.io/mutable-instruments-documentation/modules/elements/#modal-resonator)
+#### (main)[Modal resonator](https://pichenettes.github.io/mutable-instruments-documentation/modules/elements/#modal-resonator)
 - Internally uses 64 zero-delay feedback state variable filters.
 - **Coarse**, fine and FM frequency controls.
 - **Geometry**: Interpolates through a collection of structures, including plates, strings, tubes, bowls.
@@ -19,7 +19,7 @@
 - **Space**. Creates an increasingly rich stereo output by capturing the sound at two different points of the structure, and then adds more space through algorithmic reverberation.
 
 ---
-
+<!-- 
 explaination of files in original repo that we need to use (gpt generated)
 ### Summary of `voice.cc` and `voice.h`(elements/dsp/)
 
@@ -68,9 +68,9 @@ The files `voice.cc` and `voice.h` implement a modal synthesis voice, which is a
    - **Modal Synthesis**: A technique where a physical model is used to simulate the vibrations of objects, often used for simulating acoustic instruments.
    - **Chords**: Predefined sets of intervals for generating harmonic content in polyphonic mode.
 
-These files are part of a real-time audio processing system, likely for a synthesizer, and focus on modeling realistic instrument sounds through complex sound synthesis techniques.
+These files are part of a real-time audio processing system, likely for a synthesizer, and focus on modeling realistic instrument sounds through complex sound synthesis techniques. -->
 
 --- 
 
-(add more about how to use the dsp classes in elements/dsp, which is the modal resonator part)
+(add more about how to use the dsp classes in rings/dsp, which is the modal resonator part)
 

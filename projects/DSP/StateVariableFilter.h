@@ -22,6 +22,7 @@ public:
 
 private:
     double sampleRate { 48000.0 };
+    
 
     float state0 { 0.f };
     float state1 { 0.f };

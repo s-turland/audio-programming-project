@@ -98,7 +98,7 @@ int Resonator::ComputeFilters()
     float q_loss_damping_rate = structure * (2.0f - structure) * 0.1f;
     int num_modes = 0;
     
-    for (int32_t i = 0; i < std::min(kMaxModes, resolution); ++i) 
+    for (int i = 0; i < std::min(kMaxModes, resolution); ++i) 
     {
         float partial_frequency = harmonic * stretch_factor;
         if (partial_frequency >= 0.49f) 
@@ -112,8 +112,8 @@ int Resonator::ComputeFilters()
         
         // filters[i].(partial_frequency, 1.0f + partial_frequency * q);
         
-        
         stretch_factor += stiffness;
+
         if (stiffness < 0.0f) 
         {
             // Make sure that the partials do not fold back into negative frequencies.

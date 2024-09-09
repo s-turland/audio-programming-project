@@ -34,7 +34,6 @@ public:
     void setPosition(float newPosition);
     void setResolution(int newResolution);
     
-    // float Interpolate(const float* lut, float structure, float table_size);
 
 private:
 

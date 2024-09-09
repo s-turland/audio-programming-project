@@ -1,6 +1,7 @@
 #include "algorithm"
 #include "StateVariableFilter.h"
 #include "DelayLine.h"
+#include "dsp.h"
 
 namespace DSP {
 
@@ -32,7 +33,8 @@ public:
     void setDamping(float newDamping);
     void setPosition(float newPosition);
     void setResolution(int newResolution);
-
+    
+    // float Interpolate(const float* lut, float structure, float table_size);
 
 private:
 

@@ -11,10 +11,11 @@ static const std::vector<mrta::ParameterInfo> ParameterInfos
     // { Param::ID::PostGain,  Param::Name::PostGain,  "dB", 0.0f, -60.f, 12.f, 0.1f, 3.8018f },
 };
 
-//   ATTENUVERT(patch->structure, STRUCTURE, 0.0f, 0.9995f);
-//   ATTENUVERT(patch->brightness, BRIGHTNESS, 0.0f, 1.0f);
-//   ATTENUVERT(patch->damping, DAMPING, 0.0f, 1.0f);
-//   ATTENUVERT(patch->position, POSITION, 0.0f, 1.0f);
+//   STRUCTURE (0.0f, 0.9995f);
+//   BRIGHTNESS (0.0f, 1.0f);
+//   DAMPING, (0.0f, 1.0f);
+//   POSITION (0.0f, 1.0f);
+//  
 
 MainProcessor::MainProcessor() :
     parameterManager(*this, ProjectInfo::projectName, ParameterInfos)
